@@ -43,14 +43,10 @@ export default {
   },
   computed: {
     ...mapState({
-      currntheight: 'screenHeight',
       isCollapse: 'isCollapse'
     })
   },
   methods: {
-    changeAsideHight () {
-      this.$refs.sidebar.style.height = this.currntheight + 'px'
-    },
     handleOpen (key, keyPath) {
       console.log('open', key, keyPath)
     },
@@ -58,13 +54,7 @@ export default {
       console.log('close', key, keyPath)
     }
   },
-  mounted () {
-    this.changeAsideHight()
-  },
   watch: {
-    currntheight () {
-      this.changeAsideHight()
-    },
     isCollapse () {
       this.Collapse = this.isCollapse
     }
@@ -89,6 +79,9 @@ export default {
     position: fixed
     width: 210px
     overflow: hidden
+    top: 0
+    left: 0
+    bottom: 0
     z-index: 2
     transition: all .3s ease
     .sidebar-logo
