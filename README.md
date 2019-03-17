@@ -1,7 +1,7 @@
 # vue-admin-template
 
-[![vue](https://img.shields.io/badge/vue-2.5.10-brightgreen.svg)]()
-[![element--ui](https://img.shields.io/badge/element--ui-2.4.11-brightgreen.svg)]()
+[![vue](https://img.shields.io/badge/vue-2.9.6-green.svg)]()
+[![element--ui](https://img.shields.io/badge/element--ui-2.6.1-green.svg)]()
 [![GitHub](https://img.shields.io/github/license/fanghongbo/vue-admin-template.svg)]()
 
 > A minimal vue admin template with Element UI & iconfont & lint
